@@ -83,7 +83,7 @@ class SimpleKeyValueStore:
         for k, v in self.index:
             if k == key:
                 return v
-        return "NULL"
+        return ""
 
 
 if __name__ == "__main__":
