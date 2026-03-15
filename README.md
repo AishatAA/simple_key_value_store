@@ -6,7 +6,7 @@
 - **GitHub Username**: AishatAA
 
 ## Overview
-A simple persistent key-value store implemented in Python that supports SET and GET commands using append-only storage.
+A basic persistent key-value store that supports SET and GET commands using append-only storage.
 
 ## Features
 - **SET <key> <value>**: Store a key-value pair
@@ -15,6 +15,11 @@ A simple persistent key-value store implemented in Python that supports SET and 
 - **Persistence**: All data is immediately written to `data.db` using append-only logging
 - **Last-write-wins**: Latest SET for a key overwrites previous values
 - **Custom index**: Uses list-based linear search (no dictionaries/maps)
+
+## Implementation
+- **Language**: Python
+- **Storage**: Append-only log file (`data.db`)
+- **Index**: List-based linear search
 
 ## File Structure
 - **main.py** - Main program Implementation
