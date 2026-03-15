@@ -2,8 +2,8 @@
 
 ## Project: CSCE4350 - Build a Database: The Simple Key-Value Store
 
-**EUID**: AJA0285
-**GitHub Username**: AishatAA
+- **EUID**: AJA0285
+- **GitHub Username**: AishatAA
 
 ## Overview
 A simple persistent key-value store implemented in Python that supports SET and GET commands using append-only storage.
