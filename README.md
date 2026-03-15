@@ -16,12 +16,12 @@ A simple persistent key-value store implemented in Python that supports SET and 
 - **Last-write-wins**: Latest SET for a key overwrites previous values
 - **Custom index**: Uses list-based linear search (no dictionaries/maps)
 
-## How to Run
-```bash
-python3 main.py
-
 ## File Structure
 - **main.py** - Main program Implementation
 - **data.db** - Append-only storage
-- **README.md** - 
+- **README.md** - Documentation
 - **Gradebot_Screenshot_Prove.png** - Testing results
+
+## How to Run
+```bash
+python3 main.py
