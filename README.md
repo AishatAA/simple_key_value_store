@@ -25,7 +25,7 @@ A basic persistent key-value store that supports SET and GET commands using appe
 - **main.py** - Main program Implementation
 - **data.db** - Append-only storage
 - **README.md** - Documentation
-- **Gradebot_Screenshot_Prove.png** - Testing results
+- **Gradebot_Output.md & gradebot_screenshot.png** - Gradebot output documentation and Screenshot
 
 ## How to Run
 ```bash
